@@ -1,6 +1,6 @@
 # Hola, soy Camilo
 
-Soy David Camilo Colmenares, estudiante de Ingenieria de Sistemas en la UFPS en Cúcuta, Colombia, voy mas o menos por quinto semestre y me estoy formando como desarrollador backend, aunque tambien me llaman mucho la atencion las redes y la ciberseguridad, ademas tengo experiencia haciendo soporte, mantenimiento de computadores, instalando sistemas operativos y programas, y de ahi me fue gustando todo esto.
+Soy David Camilo Colmenares, estudiante de Ingenieria de Sistemas en la UFPS en Cúcuta, Colombia, voy en quinto semestre y me estoy formando como desarrollador backend, aunque tambien me llaman mucho la atencion las redes y la ciberseguridad, ademas tengo experiencia haciendo soporte, mantenimiento de computadores, instalando sistemas operativos y programas, y de ahi me fue gustando todo esto.
 
 Aca voy subiendo lo que hago en la U y por mi cuenta, casi todo lo trabajo por pasos y con un commit por cada paso, asi que si entra a un repo puede ver como fue avanzando el proyecto desde el inicio.
 
