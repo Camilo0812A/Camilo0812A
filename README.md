@@ -22,11 +22,11 @@ Aca voy subiendo lo que hago en la U y por mi cuenta, casi todo lo trabajo por p
 
 | Proyecto | De que se trata | Demo |
 |---|---|---|
-| [valorant-dashboard](https://github.com/Camilo0812A/valorant-dashboard) | Un dashboard para mejorar en Valorant, con estadisticas por agente y por mapa, plan de entrenamiento y seguimiento del tilt, hecho con React, TypeScript y Tailwind | [Ver](https://valorant-dashboard-2-hub.vercel.app) |
+| [valorant-dashboard](https://github.com/Camilo0812A/valorant-dashboard) | Un dashboard para mejorar en Valorant, con estadisticas por agente y por mapa, plan de entrenamiento y seguimiento del tilt, hecho con React, TypeScript y Tailwind (hecho con IA) | [Ver](https://valorant-dashboard-2-hub.vercel.app) |
 | [clima-react](https://github.com/Camilo0812A/clima-react) | Busca cualquier ciudad y muestra el clima de hoy y de los proximos 7 dias, con hooks propios para pedir los datos y para no buscar con cada tecla | [Ver](https://camilo0812a.github.io/clima-react/) |
 | [taller-crud-react](https://github.com/Camilo0812A/taller-crud-react) | Lista de tareas con todo el CRUD, filtros, resumen y guardado en el navegador | [Ver](https://camilo0812a.github.io/taller-crud-react/) |
 | [tablero-soporte](https://github.com/Camilo0812A/tablero-soporte) | Tablero de tickets de soporte con HTML, Tailwind y JavaScript puro, conectado a una API REST con GET, POST, PUT, PATCH y DELETE | Se corre en local |
-| [parcial-ada-analisis](https://github.com/Camilo0812A/parcial-ada-analisis) | Un minijuego que hice para estudiar para el primer previo de Analisis de Algoritmos, te pone ejercicios de T(n) y Big-O y te corrige al instante | [Ver](https://camilo0812a.github.io/parcial-ada-analisis/) |
+| [parcial-ada-analisis](https://github.com/Camilo0812A/parcial-ada-analisis) | Un minijuego que hice para estudiar para el primer previo de Analisis de Algoritmos, te pone ejercicios de T(n) y Big-O y te corrige al instante (hecho con IA) | [Ver](https://camilo0812a.github.io/parcial-ada-analisis/) |
 
 ## Ahorita
 
