@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="24" viewBox="0 0 600 24" role="img" aria-label="Separador">
+<style>
+.sweep{animation:sweep 3.2s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(-140px)}60%,100%{transform:translateX(600px)}}
+.gem{transform-origin:300px 12px;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.75;transform:rotate(45deg) scale(1)}50%{opacity:1;transform:rotate(45deg) scale(1.25)}}
+@media (prefers-reduced-motion:reduce){.sweep{animation:none;opacity:0}.gem{animation:none;transform:rotate(45deg)}}
+</style>
+<defs>
+<linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#b4232a" stop-opacity="0"/><stop offset=".5" stop-color="#b4232a"/><stop offset="1" stop-color="#b4232a" stop-opacity="0"/></linearGradient>
+<linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#e0c06a" stop-opacity="0"/><stop offset=".5" stop-color="#e0c06a"/><stop offset="1" stop-color="#e0c06a" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect x="0" y="11" width="600" height="2"/></clipPath>
+</defs>
+<rect x="0" y="11" width="600" height="2" fill="url(#l)"/>
+<g clip-path="url(#c)"><rect class="sweep" x="0" y="11" width="140" height="2" fill="url(#s)"/></g>
+<rect class="gem" x="295" y="7" width="10" height="10" fill="#0b0907" stroke="#c8a24a" stroke-width="2" transform="rotate(45 300 12)"/>
+</svg>
