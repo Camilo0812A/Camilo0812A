@@ -2,12 +2,12 @@
 
 <img src="assets/banner.svg" alt="Camilo Colmenares · Software Developer, sobre un bodegón al óleo con calavera y vela encendida" width="100%">
 
-<a href="https://dcportafolio.vercel.app"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=C8A24A&center=true&vCenter=true&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Disponible%20para%20trabajo,%20pr%C3%A1cticas%20y%20proyectos;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python" alt="Software Developer · Estudiante de Ingeniería de Sistemas · Disponible para trabajo, prácticas y proyectos · Java, TypeScript, React y Python"></a>
+<a href="https://dcportafolio.kodce.com"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=C8A24A&center=true&vCenter=true&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Disponible%20para%20trabajo,%20pr%C3%A1cticas%20y%20proyectos;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python" alt="Software Developer · Estudiante de Ingeniería de Sistemas · Disponible para trabajo, prácticas y proyectos · Java, TypeScript, React y Python"></a>
 
 </div>
 
 <p align="center">
-  <a href="https://dcportafolio.vercel.app"><img alt="Portafolio" src="https://img.shields.io/badge/Portafolio-b4232a?style=for-the-badge&logo=vercel&logoColor=ede6d8"></a>
+  <a href="https://dcportafolio.kodce.com"><img alt="Portafolio" src="https://img.shields.io/badge/Portafolio-b4232a?style=for-the-badge&logo=cloudflarepages&logoColor=ede6d8"></a>
   <a href="https://www.linkedin.com/in/camilo-colmenares-7b96a6281"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b0907?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2M4YTI0YSIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU1di01LjU3YzAtMS4zMy0uMDMtMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHoiLz48L3N2Zz4="></a>
   <a href="mailto:dcolmenaresh1@gmail.com"><img alt="Correo" src="https://img.shields.io/badge/Correo-c8a24a?style=for-the-badge&logo=gmail&logoColor=0b0907"></a>
 </p>
@@ -43,7 +43,7 @@
 <table>
   <tr>
     <td align="center" valign="top" width="50%" colspan="2">
-      <a href="https://dcportafolio.vercel.app"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/docs/screenshots/hero-desktop.webp" alt="Captura de Portafolio" width="760"></a>
+      <a href="https://dcportafolio.kodce.com"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/docs/screenshots/hero-desktop.webp" alt="Captura de Portafolio" width="760"></a>
       <br><br>
       <b>Portafolio</b>
       <br>
@@ -51,7 +51,7 @@
       <br><br>
       <img alt="React" src="https://img.shields.io/badge/React-16120f?style=flat-square&logo=react&logoColor=c8a24a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-16120f?style=flat-square&logo=typescript&logoColor=c8a24a"> <img alt="Vite" src="https://img.shields.io/badge/Vite-16120f?style=flat-square&logo=vite&logoColor=c8a24a"> <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-16120f?style=flat-square&logo=tailwindcss&logoColor=c8a24a"> <img alt="Motion" src="https://img.shields.io/badge/Motion-16120f?style=flat-square&logo=framer&logoColor=c8a24a"> <img alt="WebGL2" src="https://img.shields.io/badge/WebGL2-16120f?style=flat-square&logo=webgl&logoColor=c8a24a">
       <br><br>
-      <a href="https://dcportafolio.vercel.app"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/portfolio"><b>Código</b></a>
+      <a href="https://dcportafolio.kodce.com"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/portfolio"><b>Código</b></a>
     </td>
   </tr>
   <tr>
@@ -146,11 +146,11 @@
 
 <p align="center">
   ¿Tienes una vacante, una práctica o un proyecto en mente? <b>Hablemos</b>, <i>¿creamos algo?</i><br>
-  Escríbeme a <a href="mailto:dcolmenaresh1@gmail.com">dcolmenaresh1@gmail.com</a> o visita mi <a href="https://dcportafolio.vercel.app">portafolio</a>.
+  Escríbeme a <a href="mailto:dcolmenaresh1@gmail.com">dcolmenaresh1@gmail.com</a> o visita mi <a href="https://dcportafolio.kodce.com">portafolio</a>.
 </p>
 
 <p align="center">
-  <a href="https://dcportafolio.vercel.app"><img alt="Portafolio" src="https://img.shields.io/badge/Portafolio-b4232a?style=for-the-badge&logo=vercel&logoColor=ede6d8"></a>
+  <a href="https://dcportafolio.kodce.com"><img alt="Portafolio" src="https://img.shields.io/badge/Portafolio-b4232a?style=for-the-badge&logo=cloudflarepages&logoColor=ede6d8"></a>
   <a href="https://www.linkedin.com/in/camilo-colmenares-7b96a6281"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b0907?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2M4YTI0YSIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU1di01LjU3YzAtMS4zMy0uMDMtMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHoiLz48L3N2Zz4="></a>
   <a href="mailto:dcolmenaresh1@gmail.com"><img alt="Correo" src="https://img.shields.io/badge/Correo-c8a24a?style=for-the-badge&logo=gmail&logoColor=0b0907"></a>
 </p>
