@@ -43,9 +43,9 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,c,cpp,python,js,ts,react,html,css,tailwind,postgres,django,git,github,linux,vscode,vite,vercel&perline=9&theme=dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,c,cpp,python,js,ts,react,html,css,tailwind,postgres,django,git,github,linux,vscode,vite,vercel&perline=9&theme=light">
-      <img src="https://skillicons.dev/icons?i=java,c,cpp,python,js,ts,react,html,css,tailwind,postgres,django,git,github,linux,vscode,vite,vercel&perline=9&theme=dark" alt="Java, C, C++, Python, JavaScript, TypeScript, React, HTML, CSS, Tailwind CSS, PostgreSQL, Django, Git, GitHub, Linux, VS Code, Vite y Vercel" width="504">
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=light">
+      <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=dark" alt="Java, Python, C, C++, JavaScript, TypeScript, React, HTML, CSS, Tailwind CSS, Astro, PostgreSQL, MySQL, Django, Git, GitHub, Linux, VS Code, Vite y Vercel" width="560">
     </picture>
   </a>
 </p>
@@ -58,81 +58,70 @@
 
 <table>
   <tr>
-    <td align="center" valign="top" width="50%" colspan="2">
-      <a href="https://dcportafolio.kodce.com"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/docs/screenshots/hero-desktop.webp" alt="Captura de Portafolio" width="760"></a>
-      <br><br>
-      <b>Portafolio</b>
+    <td align="center" valign="top" width="50%">
+      <a href="https://dcportafolio.kodce.com"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/docs/screenshots/hero-desktop.webp" alt="Captura de Portafolio" width="400"></a>
       <br>
+      <h3>Portafolio</h3>
       <sub>Mi portafolio personal: un claroscuro tipo pintura al óleo con guiños a la cultura gamer. Muestra quién soy, mi stack, mis proyectos y la música que me acompaña.</sub>
       <br><br>
       <code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Motion</code> <code>WebGL2</code>
       <br><br>
       <a href="https://dcportafolio.kodce.com"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/portfolio"><b>Código</b></a>
     </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://promptazo.kodce.com"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/promptazo.webp" alt="Captura de Promptazo" width="400"></a>
-      <br><br>
-      <b>Promptazo</b>
       <br>
+      <h3>Promptazo</h3>
       <sub>Generador web gratuito que convierte un formulario corto en prompts profesionales (presentaciones, CV para filtros ATS y guías de estudio), en español e inglés.</sub>
       <br><br>
       <code>TypeScript</code> <code>Vitest</code> <code>Playwright</code> <code>Cloudflare Pages</code>
       <br><br>
       <a href="https://promptazo.kodce.com"><b>Ver sitio</b></a> · <i>Repo privado</i>
     </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://github.com/Camilo0812A/tuned-boyer-moore-simulator"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/tuned-boyer-moore-simulator.webp" alt="Captura de Tuned Boyer-Moore Simulator" width="400"></a>
-      <br><br>
-      <b>Tuned Boyer-Moore Simulator</b>
       <br>
+      <h3>Tuned Boyer-Moore Simulator</h3>
       <sub>Simulador interactivo del algoritmo de búsqueda de cadenas Tuned Boyer-Moore: paso a paso, con línea de tiempo y tabla bmBc.</sub>
       <br><br>
       <code>HTML</code> <code>JavaScript</code>
       <br><br>
       <a href="https://github.com/Camilo0812A/tuned-boyer-moore-simulator"><b>Código</b></a>
     </td>
+    <td align="center" valign="top" width="50%">
+      <a href="https://camilo0812a.github.io/parcial-ada-analisis/"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/parcial-ada-analisis.webp" alt="Captura de Parcial ADA · Entrenador de Análisis de Algoritmos" width="400"></a>
+      <br>
+      <h3>Parcial ADA</h3>
+      <sub>Entrenador de análisis de algoritmos: minijuego web 100 % offline para practicar T(n), Big-O y Ω y el diseño de algoritmos para el primer parcial.</sub>
+      <br><br>
+      <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>KaTeX</code>
+      <br><br>
+      <a href="https://camilo0812a.github.io/parcial-ada-analisis/"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/parcial-ada-analisis"><b>Código</b></a>
+    </td>
   </tr>
 </table>
 
 <table>
   <tr>
     <td align="center" valign="top" width="50%">
-      <a href="https://camilo0812a.github.io/parcial-ada-analisis/"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/parcial-ada-analisis.webp" alt="Captura de Parcial ADA · Entrenador de Análisis de Algoritmos" width="400"></a>
-      <br><br>
-      <b>Parcial ADA · Entrenador de Análisis de Algoritmos</b>
-      <br>
-      <sub>Minijuego web 100 % offline para practicar T(n), Big-O y Ω y el diseño de algoritmos para el primer parcial.</sub>
-      <br><br>
-      <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>KaTeX</code>
-      <br><br>
-      <a href="https://camilo0812a.github.io/parcial-ada-analisis/"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/parcial-ada-analisis"><b>Código</b></a>
-    </td>
-    <td align="center" valign="top" width="50%">
       <a href="https://camilo0812a.github.io/clima-react/"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/clima-react.webp" alt="Captura de Clima React" width="400"></a>
-      <br><br>
-      <b>Clima React</b>
       <br>
+      <h3>Clima React</h3>
       <sub>Buscador de pronóstico: clima de hoy y próximos 7 días de cualquier ciudad, con la API gratuita de Open-Meteo.</sub>
       <br><br>
       <code>React</code> <code>Vite</code> <code>CSS</code>
       <br><br>
       <a href="https://camilo0812a.github.io/clima-react/"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/clima-react"><b>Código</b></a>
     </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="50%" colspan="2">
+    <td align="center" valign="top" width="50%">
       <a href="https://github.com/Camilo0812A/tablero-soporte"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/tablero-soporte.webp" alt="Captura de Mesa de ayuda · Tablero de tickets" width="400"></a>
-      <br><br>
-      <b>Mesa de ayuda · Tablero de tickets</b>
       <br>
+      <h3>Mesa de ayuda · Tablero de tickets</h3>
       <sub>Tablero para gestionar tickets de soporte de una oficina, con API REST sobre json-server.</sub>
       <br><br>
       <code>HTML</code> <code>Tailwind CSS</code> <code>JavaScript</code> <code>json-server</code>
