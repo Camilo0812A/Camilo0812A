@@ -1,8 +1,8 @@
 
       <svg
-        width="304"
+        width="360"
         height="195"
-        viewBox="0 0 304 195"
+        viewBox="0 0 360 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #c8a24a;
+            fill: #9a7a2c;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #ede6d8;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #1f2328;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ede6d8;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #1f2328;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -100,7 +100,9 @@
       }
     
           
-        </style>
+        
+    * { animation-duration: 0s !important; animation-delay: 0s !important; }
+</style>
 
         
         <defs>
@@ -117,8 +119,8 @@
           rx="6"
           height="99%"
           stroke="#e4e2e2"
-          width="303"
-          fill="#0b0907"
+          width="359"
+          fill="#00000000"
           stroke-opacity="0"
         />
 
