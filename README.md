@@ -8,8 +8,8 @@
 
 <a href="https://dcportafolio.kodce.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=900&color=C8A24A&background=00000000&center=true&vCenter=true&repeat=false&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python;Disponible%20para%20trabajo,%20pr%C3%A1cticas%20y%20proyectos">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=900&color=9A7A2C&background=00000000&center=true&vCenter=true&repeat=false&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python;Disponible%20para%20trabajo,%20pr%C3%A1cticas%20y%20proyectos">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=900&color=C8A24A&background=00000000&center=true&vCenter=true&repeat=false&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python;Disponible%20para%20trabajo%2C%20pr%C3%A1cticas%20y%20proyectos">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=900&color=9A7A2C&background=00000000&center=true&vCenter=true&repeat=false&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python;Disponible%20para%20trabajo%2C%20pr%C3%A1cticas%20y%20proyectos">
     <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=900&color=C8A24A&background=00000000&center=true&vCenter=true&repeat=false&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python;Disponible%20para%20trabajo,%20pr%C3%A1cticas%20y%20proyectos" alt="Software Developer · Estudiante de Ingeniería de Sistemas · Java, TypeScript, React y Python · Disponible para trabajo, prácticas y proyectos">
   </picture>
 </a>
@@ -43,8 +43,8 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=light">
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cpython%2Cc%2Ccpp%2Cjs%2Cts%2Creact%2Chtml%2Ccss%2Ctailwind%2Castro%2Cpostgres%2Cmysql%2Cdjango%2Cgit%2Cgithub%2Clinux%2Cvscode%2Cvite%2Cvercel&perline=10&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cpython%2Cc%2Ccpp%2Cjs%2Cts%2Creact%2Chtml%2Ccss%2Ctailwind%2Castro%2Cpostgres%2Cmysql%2Cdjango%2Cgit%2Cgithub%2Clinux%2Cvscode%2Cvite%2Cvercel&perline=10&theme=light">
       <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=dark" alt="Java, Python, C, C++, JavaScript, TypeScript, React, HTML, CSS, Tailwind CSS, Astro, PostgreSQL, MySQL, Django, Git, GitHub, Linux, VS Code, Vite y Vercel" width="560">
     </picture>
   </a>
