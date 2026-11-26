@@ -1,31 +1,158 @@
-# Hola, soy Camilo
+<div align="center">
 
-Soy David Camilo Colmenares, estudiante de Ingenieria de Sistemas en la UFPS en Cúcuta, Colombia, voy en quinto semestre y me estoy formando como desarrollador backend, aunque tambien me llaman mucho la atencion las redes y la ciberseguridad, ademas tengo experiencia haciendo soporte, mantenimiento de computadores, instalando sistemas operativos y programas, y de ahi me fue gustando todo esto.
+<img src="assets/banner.svg" alt="Camilo Colmenares · Software Developer, sobre un bodegón al óleo con calavera y vela encendida" width="100%">
 
-Aca voy subiendo lo que hago en la U y por mi cuenta, casi todo lo trabajo por pasos y con un commit por cada paso, asi que si entra a un repo puede ver como fue avanzando el proyecto desde el inicio.
+<a href="https://dcportafolio.kodce.com"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=C8A24A&center=true&vCenter=true&width=640&height=44&lines=Software%20Developer;Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas;Disponible%20para%20trabajo,%20pr%C3%A1cticas%20y%20proyectos;Java%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Python" alt="Software Developer · Estudiante de Ingeniería de Sistemas · Disponible para trabajo, prácticas y proyectos · Java, TypeScript, React y Python"></a>
 
-## Con lo que trabajo
+</div>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+<p align="center">
+  <a href="https://dcportafolio.kodce.com"><img alt="Portafolio" src="https://img.shields.io/badge/Portafolio-b4232a?style=for-the-badge&logo=cloudflarepages&logoColor=ede6d8"></a>
+  <a href="https://www.linkedin.com/in/camilo-colmenares-7b96a6281"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b0907?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2M4YTI0YSIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU1di01LjU3YzAtMS4zMy0uMDMtMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHoiLz48L3N2Zz4="></a>
+  <a href="mailto:dcolmenaresh1@gmail.com"><img alt="Correo" src="https://img.shields.io/badge/Correo-c8a24a?style=for-the-badge&logo=gmail&logoColor=0b0907"></a>
+</p>
 
-## Proyectos
+<p align="center"><img src="assets/divider.svg" alt="" width="600"></p>
 
-| Proyecto | De que se trata | Demo |
-|---|---|---|
-| [valorant-dashboard](https://github.com/Camilo0812A/valorant-dashboard) | Un dashboard para mejorar en Valorant, con estadisticas por agente y por mapa, plan de entrenamiento y seguimiento del tilt, hecho con React, TypeScript y Tailwind (hecho con IA) | [Ver](https://valorant-dashboard-2-hub.vercel.app) |
-| [clima-react](https://github.com/Camilo0812A/clima-react) | Busca cualquier ciudad y muestra el clima de hoy y de los proximos 7 dias, con hooks propios para pedir los datos y para no buscar con cada tecla | [Ver](https://camilo0812a.github.io/clima-react/) |
-| [taller-crud-react](https://github.com/Camilo0812A/taller-crud-react) | Lista de tareas con todo el CRUD, filtros, resumen y guardado en el navegador | [Ver](https://camilo0812a.github.io/taller-crud-react/) |
-| [tablero-soporte](https://github.com/Camilo0812A/tablero-soporte) | Tablero de tickets de soporte con HTML, Tailwind y JavaScript puro, conectado a una API REST con GET, POST, PUT, PATCH y DELETE | Se corre en local |
-| [parcial-ada-analisis](https://github.com/Camilo0812A/parcial-ada-analisis) | Un minijuego que hice para estudiar para el primer previo de Analisis de Algoritmos, te pone ejercicios de T(n) y Big-O y te corrige al instante (hecho con IA) | [Ver](https://camilo0812a.github.io/parcial-ada-analisis/) |
+<h2 align="center">Sobre mí</h2>
 
-## Ahorita
+<p align="center">
+  Soy <b>Camilo</b>, estudiante de <b>Ingeniería de Sistemas</b> en la UFPS, en Cúcuta, Colombia (carrera en curso).<br>
+  Me presento como <b>Software Developer</b> y estoy <b>disponible para trabajo, prácticas y proyectos</b>.<br>
+  Me gusta construir cosas que se sientan bien al usarlas: herramientas web rápidas, interfaces cuidadas y código que otros puedan entender.<br>
+  Vengo de Java y la programación orientada a objetos, y hoy me muevo entre TypeScript, React y Python.<br>
+  Trabajo por pasos, con un commit por cada paso: en cada repo se ve cómo fue avanzando el proyecto desde el inicio.
+</p>
 
-Estoy aprendiendo mas de backend con Java, APIs y bases de datos, y en lo que pueda voy subiendo mas proyectos, fuera de la U juego tenis de mesa y Valorant con mis primos y mi papa, de ahi salio la idea del dashboard.
+<p align="center"><i>Fuera del código: tenis de mesa y videojuegos.</i></p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="600"></p>
+
+<h2 align="center">Stack</h2>
+
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&theme=dark&perline=10" alt="Java, Python, C, C++, JavaScript, TypeScript, React, HTML, CSS, Tailwind CSS, Astro, PostgreSQL, MySQL, Django, Git, GitHub, Linux, VS Code, Vite y Vercel" width="560"></a>
+</p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="600"></p>
+
+<h2 align="center">Proyectos destacados</h2>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%" colspan="2">
+      <a href="https://dcportafolio.kodce.com"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/docs/screenshots/hero-desktop.webp" alt="Captura de Portafolio" width="760"></a>
+      <br><br>
+      <b>Portafolio</b>
+      <br>
+      <sub>Mi portafolio personal: un claroscuro tipo pintura al óleo con guiños a la cultura gamer. Muestra quién soy, mi stack, mis proyectos y la música que me acompaña.</sub>
+      <br><br>
+      <img alt="React" src="https://img.shields.io/badge/React-16120f?style=flat-square&logo=react&logoColor=c8a24a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-16120f?style=flat-square&logo=typescript&logoColor=c8a24a"> <img alt="Vite" src="https://img.shields.io/badge/Vite-16120f?style=flat-square&logo=vite&logoColor=c8a24a"> <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-16120f?style=flat-square&logo=tailwindcss&logoColor=c8a24a"> <img alt="Motion" src="https://img.shields.io/badge/Motion-16120f?style=flat-square&logo=framer&logoColor=c8a24a"> <img alt="WebGL2" src="https://img.shields.io/badge/WebGL2-16120f?style=flat-square&logo=webgl&logoColor=c8a24a">
+      <br><br>
+      <a href="https://dcportafolio.kodce.com"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/portfolio"><b>Código</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <a href="https://promptazo.kodce.com"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/promptazo.webp" alt="Captura de Promptazo" width="400"></a>
+      <br><br>
+      <b>Promptazo</b>
+      <br>
+      <sub>Generador web gratuito que convierte un formulario corto en prompts profesionales (presentaciones, CV para filtros ATS y guías de estudio), en español e inglés.</sub>
+      <br><br>
+      <img alt="Astro" src="https://img.shields.io/badge/Astro-16120f?style=flat-square&logo=astro&logoColor=c8a24a"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-16120f?style=flat-square&logo=typescript&logoColor=c8a24a"> <img alt="Vitest" src="https://img.shields.io/badge/Vitest-16120f?style=flat-square&logo=vitest&logoColor=c8a24a"> <img alt="Playwright" src="https://img.shields.io/badge/Playwright-16120f?style=flat-square"> <img alt="Cloudflare Pages" src="https://img.shields.io/badge/Cloudflare%20Pages-16120f?style=flat-square&logo=cloudflarepages&logoColor=c8a24a">
+      <br><br>
+      <a href="https://promptazo.kodce.com"><b>Ver sitio</b></a> · <i>Repo privado</i>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/Camilo0812A/tuned-boyer-moore-simulator"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/tuned-boyer-moore-simulator.webp" alt="Captura de Tuned Boyer-Moore Simulator" width="400"></a>
+      <br><br>
+      <b>Tuned Boyer-Moore Simulator</b>
+      <br>
+      <sub>Simulador interactivo del algoritmo de búsqueda de cadenas Tuned Boyer-Moore: paso a paso, con línea de tiempo y tabla bmBc.</sub>
+      <br><br>
+      <img alt="HTML" src="https://img.shields.io/badge/HTML-16120f?style=flat-square&logo=html5&logoColor=c8a24a"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-16120f?style=flat-square&logo=javascript&logoColor=c8a24a">
+      <br><br>
+      <a href="https://github.com/Camilo0812A/tuned-boyer-moore-simulator"><b>Código</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <a href="https://camilo0812a.github.io/parcial-ada-analisis/"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/parcial-ada-analisis.webp" alt="Captura de Parcial ADA · Entrenador de Análisis de Algoritmos" width="400"></a>
+      <br><br>
+      <b>Parcial ADA · Entrenador de Análisis de Algoritmos</b>
+      <br>
+      <sub>Minijuego web 100 % offline para practicar T(n), Big-O y Ω y el diseño de algoritmos para el primer parcial.</sub>
+      <br><br>
+      <img alt="HTML" src="https://img.shields.io/badge/HTML-16120f?style=flat-square&logo=html5&logoColor=c8a24a"> <img alt="CSS" src="https://img.shields.io/badge/CSS-16120f?style=flat-square&logo=css&logoColor=c8a24a"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-16120f?style=flat-square&logo=javascript&logoColor=c8a24a"> <img alt="KaTeX" src="https://img.shields.io/badge/KaTeX-16120f?style=flat-square">
+      <br><br>
+      <a href="https://camilo0812a.github.io/parcial-ada-analisis/"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/parcial-ada-analisis"><b>Código</b></a>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <a href="https://camilo0812a.github.io/clima-react/"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/clima-react.webp" alt="Captura de Clima React" width="400"></a>
+      <br><br>
+      <b>Clima React</b>
+      <br>
+      <sub>Buscador de pronóstico: clima de hoy y próximos 7 días de cualquier ciudad, con la API gratuita de Open-Meteo.</sub>
+      <br><br>
+      <img alt="React" src="https://img.shields.io/badge/React-16120f?style=flat-square&logo=react&logoColor=c8a24a"> <img alt="Vite" src="https://img.shields.io/badge/Vite-16120f?style=flat-square&logo=vite&logoColor=c8a24a"> <img alt="CSS" src="https://img.shields.io/badge/CSS-16120f?style=flat-square&logo=css&logoColor=c8a24a">
+      <br><br>
+      <a href="https://camilo0812a.github.io/clima-react/"><b>Ver sitio</b></a> · <a href="https://github.com/Camilo0812A/clima-react"><b>Código</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%" colspan="2">
+      <a href="https://github.com/Camilo0812A/tablero-soporte"><img src="https://raw.githubusercontent.com/Camilo0812A/portfolio/main/public/images/projects/tablero-soporte.webp" alt="Captura de Mesa de ayuda · Tablero de tickets" width="400"></a>
+      <br><br>
+      <b>Mesa de ayuda · Tablero de tickets</b>
+      <br>
+      <sub>Tablero para gestionar tickets de soporte de una oficina, con API REST sobre json-server.</sub>
+      <br><br>
+      <img alt="HTML" src="https://img.shields.io/badge/HTML-16120f?style=flat-square&logo=html5&logoColor=c8a24a"> <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-16120f?style=flat-square&logo=tailwindcss&logoColor=c8a24a"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-16120f?style=flat-square&logo=javascript&logoColor=c8a24a"> <img alt="json-server" src="https://img.shields.io/badge/json--server-16120f?style=flat-square&logo=json&logoColor=c8a24a">
+      <br><br>
+      <a href="https://github.com/Camilo0812A/tablero-soporte"><b>Código</b></a> · <i>Se corre en local</i>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="600"></p>
+
+<h2 align="center">Actividad</h2>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Camilo0812A/Camilo0812A/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Camilo0812A/Camilo0812A/output/github-snake.svg">
+  <img alt="Serpiente recorriendo mi gráfica de contribuciones" src="https://raw.githubusercontent.com/Camilo0812A/Camilo0812A/output/github-snake.svg" width="100%">
+</picture>
+
+<br><br>
+
+<img src="assets/stats/stats.svg" alt="Estadísticas de Camilo0812A en GitHub" height="195">
+<img src="assets/stats/top-langs.svg" alt="Lenguajes más usados en mis repositorios" height="195">
+<br><br>
+<img src="assets/stats/streak.svg" alt="Racha de contribuciones de Camilo0812A" height="195">
+
+</div>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="600"></p>
+
+<h2 align="center">Contacto</h2>
+
+<p align="center">
+  ¿Tienes una vacante, una práctica o un proyecto en mente? <b>Hablemos</b>, <i>¿creamos algo?</i><br>
+  Escríbeme a <a href="mailto:dcolmenaresh1@gmail.com">dcolmenaresh1@gmail.com</a> o visita mi <a href="https://dcportafolio.kodce.com">portafolio</a>.
+</p>
+
+<p align="center">
+  <a href="https://dcportafolio.kodce.com"><img alt="Portafolio" src="https://img.shields.io/badge/Portafolio-b4232a?style=for-the-badge&logo=cloudflarepages&logoColor=ede6d8"></a>
+  <a href="https://www.linkedin.com/in/camilo-colmenares-7b96a6281"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b0907?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2M4YTI0YSIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU1di01LjU3YzAtMS4zMy0uMDMtMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHoiLz48L3N2Zz4="></a>
+  <a href="mailto:dcolmenaresh1@gmail.com"><img alt="Correo" src="https://img.shields.io/badge/Correo-c8a24a?style=for-the-badge&logo=gmail&logoColor=0b0907"></a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0907,100:b4232a&height=120&section=footer" alt="" width="100%">

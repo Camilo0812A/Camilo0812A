@@ -1,0 +1,40 @@
+name: Serpiente de contribuciones
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/snake.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generar la serpiente
+        uses: Platane/snk@v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#b4232a&color_dots=#ebe5d8,#e6d3a1,#d9b968,#c8a24a,#8f6f22&color_background=#ffffff&color_dot_border=#00000010
+            dist/github-snake-dark.svg?color_snake=#b4232a&color_dots=#1c1814,#4a3b1c,#7a6128,#a8873a,#e0c06a&color_background=#0b0907&color_dot_border=#ffffff08
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          commit_message: "Se actualizó la serpiente de contribuciones"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
