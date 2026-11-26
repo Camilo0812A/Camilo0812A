@@ -43,9 +43,9 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,c,cpp,python,js,ts,react,html,css,tailwind,postgres,django,git,github,linux,vscode,vite,vercel&perline=9&theme=dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,c,cpp,python,js,ts,react,html,css,tailwind,postgres,django,git,github,linux,vscode,vite,vercel&perline=9&theme=light">
-      <img src="https://skillicons.dev/icons?i=java,c,cpp,python,js,ts,react,html,css,tailwind,postgres,django,git,github,linux,vscode,vite,vercel&perline=9&theme=dark" alt="Java, C, C++, Python, JavaScript, TypeScript, React, HTML, CSS, Tailwind CSS, PostgreSQL, Django, Git, GitHub, Linux, VS Code, Vite y Vercel" width="504">
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=light">
+      <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,react,html,css,tailwind,astro,postgres,mysql,django,git,github,linux,vscode,vite,vercel&perline=10&theme=dark" alt="Java, Python, C, C++, JavaScript, TypeScript, React, HTML, CSS, Tailwind CSS, Astro, PostgreSQL, MySQL, Django, Git, GitHub, Linux, VS Code, Vite y Vercel" width="560">
     </picture>
   </a>
 </p>
