@@ -1,11 +1,15 @@
-// Genera la tarjeta de racha de contribuciones (assets/stats/streak.svg).
-// Uso en el workflow: GITHUB_TOKEN=... node .github/scripts/streak-card.mjs <usuario> <salida.svg>
+// Genera la tarjeta de racha de contribuciones en dos variantes (tema oscuro y tema claro),
+// ambas con fondo transparente y sin animaciones.
+// Uso en el workflow: GITHUB_TOKEN=... node .github/scripts/streak-card.mjs <usuario> <salida-oscuro.svg> <salida-claro.svg>
 import { writeFile } from 'node:fs/promises'
 
-const [user = 'Camilo0812A', out = 'assets/stats/streak.svg'] = process.argv.slice(2)
+const [user = 'Camilo0812A', outDark = 'assets/stats/streak-dark.svg', outLight = 'assets/stats/streak-light.svg'] = process.argv.slice(2)
 const token = process.env.GITHUB_TOKEN
 
-const C = { bg: '#0b0907', title: '#c8a24a', text: '#ede6d8', muted: '#9a9184', icon: '#b4232a', accent: '#e0575d', ring: '#2a231d' }
+const THEMES = {
+  dark: { title: '#c8a24a', text: '#e6edf3', muted: '#9198a1', icon: '#e0575d', accent: '#e0575d', ring: '#30363d' },
+  light: { title: '#9a7a2c', text: '#1f2328', muted: '#59636e', icon: '#b4232a', accent: '#b4232a', ring: '#d1d9e0' },
+}
 const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 
 async function gql(query, variables) {
@@ -69,33 +73,23 @@ const fmt = (iso, withYear = true) => {
 const range = (r) => (r.length ? (r.start === r.end ? fmt(r.start) : `${fmt(r.start, r.start.slice(0, 4) !== r.end.slice(0, 4))} – ${fmt(r.end)}`) : 'Sin racha activa')
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
 
-export function renderCard({ total, first, current, longest }) {
+export function renderCard({ total, first, current, longest }, C = THEMES.dark) {
   const W = 495, H = 195
   const font = "font-family=\"'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif\""
   const col = (x, value, label, sub, cls) => `
-  <g class="fade ${cls}" text-anchor="middle" ${font}>
+  <g text-anchor="middle" ${font}>
     <text x="${x}" y="${cls === 'c2' ? 104 : 92}" fill="${cls === 'c2' ? C.accent : C.text}" font-size="${cls === 'c2' ? 28 : 26}" font-weight="700">${esc(value)}</text>
     <text x="${x}" y="${cls === 'c2' ? 150 : 128}" fill="${cls === 'c2' ? C.title : C.text}" font-size="14" font-weight="600">${esc(label)}</text>
     <text x="${x}" y="${cls === 'c2' ? 170 : 150}" fill="${C.muted}" font-size="11.5">${esc(sub)}</text>
   </g>`
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="st">
 <title id="st">Racha de contribuciones: ${current.length} días actuales, ${longest.length} días como máximo, ${total} contribuciones en total</title>
-<style>
-.fade{animation:fade .8s ease-out both}.c1{animation-delay:.1s}.c2{animation-delay:.3s}.c3{animation-delay:.5s}
-@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-.ring{stroke-dasharray:226;animation:ring 1.2s .3s ease-out both}
-@keyframes ring{from{stroke-dashoffset:226}to{stroke-dashoffset:0}}
-.flame{transform-origin:247.5px 38px;animation:flick 1.6s ease-in-out infinite alternate}
-@keyframes flick{from{transform:scale(1)}to{transform:scale(1.12)}}
-@media (prefers-reduced-motion:reduce){.fade,.ring,.flame{animation:none}}
-</style>
-<rect width="${W}" height="${H}" rx="6" fill="${C.bg}"/>
 <line x1="165" y1="40" x2="165" y2="160" stroke="${C.ring}" stroke-width="1"/>
 <line x1="330" y1="40" x2="330" y2="160" stroke="${C.ring}" stroke-width="1"/>
 ${col(82.5, total, 'Contribuciones', first ? `desde ${fmt(first)}` : '—', 'c1')}
 <circle cx="247.5" cy="95" r="36" fill="none" stroke="${C.ring}" stroke-width="5"/>
-<circle class="ring" cx="247.5" cy="95" r="36" fill="none" stroke="${C.icon}" stroke-width="5" transform="rotate(-90 247.5 95)"/>
-<path class="flame" d="M247.5 24c4 7 10 11 10 19a10 10 0 0 1-20 0c0-4 2-7 4-9 0 4 2 6 4 6 0-6-1-10 2-16z" fill="${C.icon}"/>
+<circle cx="247.5" cy="95" r="36" fill="none" stroke="${C.icon}" stroke-width="5" transform="rotate(-90 247.5 95)"/>
+<path d="M247.5 24c4 7 10 11 10 19a10 10 0 0 1-20 0c0-4 2-7 4-9 0 4 2 6 4 6 0-6-1-10 2-16z" fill="${C.icon}"/>
 ${col(247.5, current.length, 'Racha actual', range(current), 'c2')}
 ${col(412.5, longest.length, 'Racha más larga', range(longest), 'c3')}
 </svg>
@@ -111,8 +105,9 @@ async function main() {
     if (!token) throw new Error('Falta GITHUB_TOKEN')
     stats = computeStats(await contributionDays())
   }
-  await writeFile(out, renderCard(stats))
-  console.log(`Racha generada en ${out}:`, JSON.stringify(stats))
+  await writeFile(outDark, renderCard(stats, THEMES.dark))
+  await writeFile(outLight, renderCard(stats, THEMES.light))
+  console.log(`Racha generada en ${outDark} y ${outLight}:`, JSON.stringify(stats))
 }
 
 main().catch((e) => {

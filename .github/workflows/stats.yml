@@ -24,34 +24,52 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Tarjeta de estadísticas
+      - name: Tarjeta de estadísticas (tema oscuro)
         uses: stats-organization/github-readme-stats-action@v2.1.0
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&custom_title=Estadísticas en GitHub&bg_color=0b0907&title_color=c8a24a&text_color=ede6d8&icon_color=b4232a&hide_border=true&border_radius=6&locale=es
-          path: assets/stats/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&custom_title=Estadísticas en GitHub&card_width=380&bg_color=00000000&hide_border=true&disable_animations=true&locale=es&title_color=c8a24a&text_color=e6edf3&icon_color=e0575d
+          path: assets/stats/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Tarjeta de lenguajes más usados
+      - name: Tarjeta de estadísticas (tema claro)
+        uses: stats-organization/github-readme-stats-action@v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&custom_title=Estadísticas en GitHub&card_width=380&bg_color=00000000&hide_border=true&disable_animations=true&locale=es&title_color=9a7a2c&text_color=1f2328&icon_color=b4232a
+          path: assets/stats/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Tarjeta de lenguajes más usados (tema oscuro)
         uses: stats-organization/github-readme-stats-action@v2.1.0
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Lenguajes más usados&card_width=300&bg_color=0b0907&title_color=c8a24a&text_color=ede6d8&icon_color=b4232a&hide_border=true&border_radius=6&locale=es
-          path: assets/stats/top-langs.svg
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Lenguajes más usados&card_width=300&bg_color=00000000&hide_border=true&disable_animations=true&locale=es&title_color=c8a24a&text_color=e6edf3&icon_color=e0575d
+          path: assets/stats/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Tarjeta de racha
+      - name: Tarjeta de lenguajes más usados (tema claro)
+        uses: stats-organization/github-readme-stats-action@v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Lenguajes más usados&card_width=300&bg_color=00000000&hide_border=true&disable_animations=true&locale=es&title_color=9a7a2c&text_color=1f2328&icon_color=b4232a
+          path: assets/stats/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Tarjetas de racha (tema oscuro y claro)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node .github/scripts/streak-card.mjs "${{ github.repository_owner }}" assets/stats/streak.svg
+        run: node .github/scripts/streak-card.mjs "${{ github.repository_owner }}" assets/stats/streak-dark.svg assets/stats/streak-light.svg
 
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats/*.svg
+          git add -A assets/stats
           git diff --cached --quiet && exit 0
           git commit -m "Se actualizaron las tarjetas de estadísticas"
           git push

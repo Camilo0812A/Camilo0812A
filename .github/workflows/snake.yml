@@ -26,8 +26,12 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?color_snake=#b4232a&color_dots=#ebe5d8,#e6d3a1,#d9b968,#c8a24a,#8f6f22&color_background=#ffffff&color_dot_border=#00000010
-            dist/github-snake-dark.svg?color_snake=#b4232a&color_dots=#1c1814,#4a3b1c,#7a6128,#a8873a,#e0c06a&color_background=#0b0907&color_dot_border=#ffffff08
+            dist/github-snake.svg?color_snake=#b4232a&color_dots=#ebedf0,#e6d3a1,#d9b968,#c8a24a,#9a7a2c&color_dot_border=#1f232810
+            dist/github-snake-dark.svg?color_snake=#e0575d&color_dots=#151b23,#4a3b1c,#7a6128,#a8873a,#c8a24a&color_dot_border=#ffffff0d
+
+      # La serpiente recorre la gráfica una sola vez y se detiene (sin bucle).
+      - name: Recorrido único
+        run: sudo sed -i 's/ infinite/ 1/g' dist/*.svg
 
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v5.0.0
